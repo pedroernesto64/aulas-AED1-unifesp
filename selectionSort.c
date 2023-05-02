@@ -34,7 +34,7 @@ int main() {
     
     printf("Random integers: ");
     for (i = 0; i < n; i++) {
-        arr[i] = rand() % n; // Generate a random integer between 0 and 99 and add it to the array
+        arr[i] = rand() % n; // Generate a random integer between 0 and n and add it to the array
         printf("%d ", arr[i]); // Print the integer to the console
     }
     
